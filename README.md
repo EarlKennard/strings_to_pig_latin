@@ -10,7 +10,7 @@ Clone the repo and make sure you have Rust installed in your VSCODE. Just type i
 
 # Problems (that I know of)
 
-1. It currently doesn't handle symbols such as commas and periods at the end of sentences.
+1. It currently doesn't handle symbols that may be at the end of a word like commas and periods.
 2. There may be some rare instances where a word can start with a non-letter. As for such instances, I don't know if I should even take them into account because a) I can't think of any examples, and b) they may be so rare that it's not worth handling them.
 3. It may be worth it in the future to not turn every letter to lowercase and instead return the pig latin conversion string in its original letter cases.
 
